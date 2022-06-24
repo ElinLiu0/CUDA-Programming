@@ -3,3 +3,5 @@
 *.obj
 *.vcxproj
 *.vcxproj.user
+*.out
+*.bin

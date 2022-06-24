@@ -1,0 +1,25 @@
+{
+    "cSpell.enableFiletypes": [
+        "!rust",
+        "Log",
+        "bat",
+        "cmake",
+        "cuda-cpp",
+        "cython",
+        "ignore",
+        "ini",
+        "jinja",
+        "julia",
+        "juliamarkdown",
+        "log",
+        "lua",
+        "pip-requirements",
+        "r",
+        "razor",
+        "ruby",
+        "shellscript",
+        "sql",
+        "ssh_config",
+        "xml"
+    ]
+}

@@ -11,5 +11,10 @@ int main(void){
         此时函数也将被调用2*4=8次
     */
     hello_from_gpu<<<2,4>>>();
+    /*
+        注意这里blockId不一定是0还是1，
+        因此这也说明CUDA在执行程序的高度随机化
+    */
+    cudaDeviceSynchronize();
     return 0;
 }
