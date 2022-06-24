@@ -13,6 +13,7 @@ __global__ void hello_from_gpu(void){
 int main(void){
     // 构建一个类型为dim3的block_size变量
     const dim3 block_size(2,4);
+    // 此时CUDA核函数启动的参数为：block_dim:1,grid_num:2,block_num:4
     hello_from_gpu<<<1,block_size>>>();
     cudaDeviceSynchronize();
     return 0;
