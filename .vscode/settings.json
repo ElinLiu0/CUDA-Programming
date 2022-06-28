@@ -21,5 +21,8 @@
         "sql",
         "ssh_config",
         "xml"
-    ]
+    ],
+    "files.associations": {
+        "ostream": "cpp"
+    }
 }
