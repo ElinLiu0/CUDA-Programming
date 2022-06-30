@@ -44,6 +44,8 @@ int main(void)
     int *cudaArray;
     /* 使用cudaMalloc()函数来对其进行内存分配，
     指定参数顺序为:整数指针，内存大小
+    这里(int **)将把cudaArray强制转换为双重指针
+    也可以使用不传递该类型直接调用该指针进行分配
     */
     cudaMalloc((int **)&cudaArray,MEM_SPACE);
     // 使用cudaMemcpy()函数
