@@ -23,6 +23,7 @@
         "xml"
     ],
     "files.associations": {
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "system_error": "cpp"
     }
 }
