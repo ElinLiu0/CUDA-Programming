@@ -1,0 +1,5 @@
+使用.deb安装完CUDA后
+在/etc/profile中添加如下内容：
+    export PATH=/usr/local/cuda-xxx.xxx/bin:$PATH
+在/etc/ld.so.conf中添加：
+    include /usr/local/cuda-xxx.xxx/lib64/
